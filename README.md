@@ -1,17 +1,8 @@
 # todo_algroiza210
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# todo_Algroiza_task2" 
+![1](https://user-images.githubusercontent.com/64233832/181470249-2c739fe7-a381-4af2-9575-d75159d9720e.jpeg)
+![2](https://user-images.githubusercontent.com/64233832/181470271-b57214c9-864a-4d5b-9267-3cc4f0ec746d.jpeg)
+![3](https://user-images.githubusercontent.com/64233832/181470273-9103acca-ee78-402b-a76a-46cb3023c178.jpeg)
+![4](https://user-images.githubusercontent.com/64233832/181470275-e57aa6e4-4006-4cc4-b943-14ab706e75ff.jpeg)
+![5](https://user-images.githubusercontent.com/64233832/181470278-14a5a3cb-9dc1-4ccd-a0d8-c4e3dbb20f1e.jpeg)
