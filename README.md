@@ -1,8 +1,7 @@
 # todo_algroiza210
 
 
-![1]("https://user-images.githubusercontent.com/64233832/181470249-2c739fe7-a381-4af2-9575-d75159d9720e.jpeg)
-
+<img src="https://user-images.githubusercontent.com/64233832/181477077-dfc132c6-33ba-4b26-ad78-2b1f5a33a03b.jpeg"width="48">
 
 ![2](https://user-images.githubusercontent.com/64233832/181470271-b57214c9-864a-4d5b-9267-3cc4f0ec746d.jpeg)
 
