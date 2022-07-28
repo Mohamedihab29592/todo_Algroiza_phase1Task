@@ -2,7 +2,7 @@
 
 
 
-##Pictires
+## Screen
 
 
 ![1](https://user-images.githubusercontent.com/64233832/181477781-639caa24-c8b9-45ef-a028-759262f00a71.jpeg)
