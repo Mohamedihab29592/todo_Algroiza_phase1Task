@@ -1,17 +1,19 @@
 # todo_algroiza210
 
-A new Flutter project.
 
-## Getting Started
+![1](https://user-images.githubusercontent.com/64233832/181470249-2c739fe7-a381-4af2-9575-d75159d9720e.jpeg) 
 
-This project is a starting point for a Flutter application.
+![2](https://user-images.githubusercontent.com/64233832/181470271-b57214c9-864a-4d5b-9267-3cc4f0ec746d.jpeg)
 
-A few resources to get you started if this is your first Flutter project:
+![3](https://user-images.githubusercontent.com/64233832/181470273-9103acca-ee78-402b-a76a-46cb3023c178.jpeg)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![4](https://user-images.githubusercontent.com/64233832/181470275-e57aa6e4-4006-4cc4-b943-14ab706e75ff.jpeg)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# todo_Algroiza_task2" 
+![5](https://user-images.githubusercontent.com/64233832/181470278-14a5a3cb-9dc1-4ccd-a0d8-c4e3dbb20f1e.jpeg)
+
+![6](https://user-images.githubusercontent.com/64233832/181470819-d7c44117-dc30-414f-88fe-e1b249f3b3d7.jpeg)
+
+![7](https://user-images.githubusercontent.com/64233832/181471516-1a9dbeee-b2d2-4b48-ae68-ed5ad63fba05.jpeg)
+
+
+![8](https://user-images.githubusercontent.com/64233832/181472439-66158874-962d-4796-a24b-e8ff51179383.JPG)
