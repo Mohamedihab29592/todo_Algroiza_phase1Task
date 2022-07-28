@@ -1,5 +1,8 @@
 # todo_algroiza210
 
+## video
+https://drive.google.com/file/d/1RZyRT1ivmTZQqC2uTH6a_lrZ-fyoUy6P/view?usp=sharing
+
 
 
 ## Screen
@@ -17,7 +20,6 @@
 ![5](https://user-images.githubusercontent.com/64233832/181470278-14a5a3cb-9dc1-4ccd-a0d8-c4e3dbb20f1e.jpeg)
 
 ![6](https://user-images.githubusercontent.com/64233832/181470819-d7c44117-dc30-414f-88fe-e1b249f3b3d7.jpeg)
-
 
 
 ![7](https://user-images.githubusercontent.com/64233832/181486647-0df34a8c-c77b-47d0-af15-616ca5417cc1.jpeg)
