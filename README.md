@@ -1,9 +1,8 @@
 # todo_algroiza210
 
 
-<img src="https://user-images.githubusercontent.com/64233832/181477077-dfc132c6-33ba-4b26-ad78-2b1f5a33a03b.jpeg"width="48">
 
-<a href="url"><img src="[http://url.to/image.png](https://user-images.githubusercontent.com/64233832/181477077-dfc132c6-33ba-4b26-ad78-2b1f5a33a03b.jpeg)" align="left" height="48" width="48" ></a>
+![1](https://user-images.githubusercontent.com/64233832/181477781-639caa24-c8b9-45ef-a028-759262f00a71.jpeg)
 
 
 ![2](https://user-images.githubusercontent.com/64233832/181470271-b57214c9-864a-4d5b-9267-3cc4f0ec746d.jpeg)
