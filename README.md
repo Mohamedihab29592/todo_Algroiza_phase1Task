@@ -1,7 +1,7 @@
 # todo_algroiza210
 
 
-<img src=![1](https://user-images.githubusercontent.com/64233832/181470249-2c739fe7-a381-4af2-9575-d75159d9720e.jpeg)
+[1]<img src="https://user-images.githubusercontent.com/64233832/181470249-2c739fe7-a381-4af2-9575-d75159d9720e.jpeg"
 width=50% <img src=height=50%>
 
 ![2](https://user-images.githubusercontent.com/64233832/181470271-b57214c9-864a-4d5b-9267-3cc4f0ec746d.jpeg)
