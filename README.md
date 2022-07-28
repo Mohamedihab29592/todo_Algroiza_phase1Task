@@ -1,7 +1,8 @@
 # todo_algroiza210
 
 
-![1](https://user-images.githubusercontent.com/64233832/181470249-2c739fe7-a381-4af2-9575-d75159d9720e.jpeg) 
+![1](https://user-images.githubusercontent.com/64233832/181470249-2c739fe7-a381-4af2-9575-d75159d9720e.jpeg)
+width=50% height=50%
 
 ![2](https://user-images.githubusercontent.com/64233832/181470271-b57214c9-864a-4d5b-9267-3cc4f0ec746d.jpeg)
 
@@ -16,4 +17,3 @@
 ![7](https://user-images.githubusercontent.com/64233832/181471516-1a9dbeee-b2d2-4b48-ae68-ed5ad63fba05.jpeg)
 
 
-![8](https://user-images.githubusercontent.com/64233832/181472439-66158874-962d-4796-a24b-e8ff51179383.JPG)
