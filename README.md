@@ -1,9 +1,10 @@
 # todo_algroiza210
 
-##Bloc, Cubit ,sqflite, Responsive, Local Notifications, Clean Code, Components, Add Task, Edit Task, Delete Task , Reminder and repeat Notifications , Select Color Priority.
+## Bloc, Cubit ,sqflite, Responsive, Local Notifications, Clean Code, Components, Add Task, Edit Task, Delete Task , Reminder and repeat Notifications , Select Color Priority.
 
 
 ## video
+https://drive.google.com/file/d/1UoQnKwkdZOGYB7VC2xGb5qHk3IGaErdS/view?usp=sharing
 
 
 
