@@ -4,10 +4,13 @@ import 'package:flutter/material.dart';
 class MyTimePicker extends StatefulWidget {
   late final String? hint;
   final String title;
-  TextEditingController controller;
+  TextEditingController ? controller;
+  TextStyle? hintStyle;
+
+
 
   MyTimePicker(
-      {Key? key, this.hint, required this.title, required this.controller,  })
+      {Key? key, this.hint, required this.title,  this.controller, this.hintStyle })
       : super(key: key);
 
   @override
@@ -15,6 +18,7 @@ class MyTimePicker extends StatefulWidget {
 }
 
 class _MyTimePickerState extends State<MyTimePicker> {
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -38,7 +42,7 @@ class _MyTimePickerState extends State<MyTimePicker> {
             controller: widget.controller,
             decoration: InputDecoration(
               hintText: widget.hint,
-              hintStyle: TextStyle(color: Colors.grey[400]),
+              hintStyle: widget.hintStyle,
               border: const OutlineInputBorder(
                 borderSide: BorderSide.none,
               ),
@@ -49,7 +53,7 @@ class _MyTimePickerState extends State<MyTimePicker> {
                 onPressed:() {showTime();}
               ),
             ),
-            onTap: () {
+            onTap: (){
               showTime();
             },
             validator: (value) {
@@ -63,12 +67,11 @@ class _MyTimePickerState extends State<MyTimePicker> {
       ],
     );
   }
-
   void showTime() async {
-    await showTimePicker(context: context, initialTime: TimeOfDay.now())
+    await showTimePicker(context: context, initialTime: TimeOfDay.now(),)
         .then((dynamic value) {
-      setState(() {
-        widget.controller.text = value.format(context);
+          setState(() {
+        widget.controller!.text = value.format(context);
       });
     });
   }

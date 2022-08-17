@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:todo_algroiza210/core/util/components/constats.dart';
+
 
 class MyDatePicker extends StatefulWidget {
   final String? hint;
   final String title;
-  TextEditingController controller;
+  TextEditingController? controller;
+  TextStyle? hintStyle;
+
 
   MyDatePicker(
-      {Key? key, this.hint, required this.title, required this.controller})
+      {Key? key, this.hint, required this.title,  this.controller,this.hintStyle})
       : super(key: key);
 
   @override
@@ -28,7 +32,7 @@ class _DatePickerState extends State<MyDatePicker> {
         ),
         Container(
           decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(15), color: Colors.grey[100]),
+              borderRadius: BorderRadius.circular(10), color: Colors.grey[100]),
           height: 60,
           width: double.infinity,
           child: TextFormField(
@@ -36,8 +40,8 @@ class _DatePickerState extends State<MyDatePicker> {
             readOnly: true,
             controller: widget.controller,
             decoration: InputDecoration(
-              hintText: '2022-01-01',
-              hintStyle: TextStyle(color: Colors.grey[400]),
+              hintText: widget.hint,
+              hintStyle: widget.hintStyle,
               border: const OutlineInputBorder(
                 borderSide: BorderSide.none,
               ),
@@ -51,7 +55,8 @@ class _DatePickerState extends State<MyDatePicker> {
             ),
             onTap: () {
               showDate();
-            },
+
+              },
             validator: (value) {
               if (value!.isEmpty) {
                 return " Date can not be empty";
@@ -65,12 +70,12 @@ class _DatePickerState extends State<MyDatePicker> {
   }
 
   void showDate() async {
-    var date = await showDatePicker(
+    DateTime? date = await showDatePicker(
         context: context,
         initialDate: DateTime.now(),
         firstDate: DateTime(1900),
         lastDate: DateTime(2100));
-    widget.controller.text = date.toString().substring(0, 10);
+    widget.controller!.text = Constants.inputFormat.format(date!);
 
 
 

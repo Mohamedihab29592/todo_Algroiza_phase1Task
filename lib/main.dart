@@ -1,47 +1,21 @@
-import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'features/tasks/presentation/cubit/cubit.dart';
-import 'features/tasks/presentation/pages/layout/board.dart';
+import 'package:todo_algroiza210/presentation/cubit/cubit.dart';
+import 'package:todo_algroiza210/presentation/pages/layout/board.dart';
+import 'core/util/services/notification_handler/notifications_service.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await NotifyHelper().initializeNotification();
 
-  AwesomeNotifications().initialize(
-    null,
-    [
-      NotificationChannel(
-        channelKey: 'basic_channel',
-        channelName: 'Basic notifications',
-        channelDescription: 'Notifications with on Time  functionality',
-        defaultColor: Color(0xFF9D50DD),
-        vibrationPattern: lowVibrationPattern,
-        importance: NotificationImportance.High,
-        defaultRingtoneType: DefaultRingtoneType.Alarm,
-        criticalAlerts: true,
-        channelShowBadge: true,
-      ),
-
-      NotificationChannel(
-          channelKey: 'scheduled',
-          channelName: 'Scheduled notifications',
-          channelDescription: 'Notifications with schedule functionality',
-        defaultColor: Color(0xFF9D50DD),
-        vibrationPattern: lowVibrationPattern,
-        importance: NotificationImportance.High,
-        defaultRingtoneType: DefaultRingtoneType.Alarm,
-        criticalAlerts: true,
-        channelShowBadge: true,
-      ),
-
-    ],
-  );
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
+  static final navigatorKey = GlobalKey<NavigatorState>();
 
   // This widget is the root of your application.
   @override
@@ -53,6 +27,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
+        navigatorKey: navigatorKey,
         title: 'Flutter Demo',
         theme: ThemeData(
           visualDensity: VisualDensity.adaptivePlatformDensity,

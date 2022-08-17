@@ -41,7 +41,7 @@ class MyFormField extends StatelessWidget {
         ),
         Container(
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(15),
+            borderRadius: BorderRadius.circular(10),
             color: Colors.grey[100]
 
           ),
