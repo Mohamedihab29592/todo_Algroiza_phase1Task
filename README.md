@@ -1,7 +1,15 @@
 # todo_algroiza210
 
+## video
+https://drive.google.com/file/d/1RZyRT1ivmTZQqC2uTH6a_lrZ-fyoUy6P/view?usp=sharing
 
-![1](https://user-images.githubusercontent.com/64233832/181470249-2c739fe7-a381-4af2-9575-d75159d9720e.jpeg) 
+
+
+## Screen
+
+
+![1](https://user-images.githubusercontent.com/64233832/181477781-639caa24-c8b9-45ef-a028-759262f00a71.jpeg)
+
 
 ![2](https://user-images.githubusercontent.com/64233832/181470271-b57214c9-864a-4d5b-9267-3cc4f0ec746d.jpeg)
 
@@ -13,7 +21,5 @@
 
 ![6](https://user-images.githubusercontent.com/64233832/181470819-d7c44117-dc30-414f-88fe-e1b249f3b3d7.jpeg)
 
-![7](https://user-images.githubusercontent.com/64233832/181471516-1a9dbeee-b2d2-4b48-ae68-ed5ad63fba05.jpeg)
 
-
-![8](https://user-images.githubusercontent.com/64233832/181472439-66158874-962d-4796-a24b-e8ff51179383.JPG)
+![7](https://user-images.githubusercontent.com/64233832/181486647-0df34a8c-c77b-47d0-af15-616ca5417cc1.jpeg)
