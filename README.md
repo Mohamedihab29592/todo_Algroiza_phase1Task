@@ -3,8 +3,11 @@
 ## Bloc, Cubit ,sqflite, Responsive, Local Notifications, Clean Code, Components, Add Task, Edit Task, Delete Task , Reminder and repeat Notifications , Select Color Priority.
 
 
-## video
-https://drive.google.com/file/d/1UoQnKwkdZOGYB7VC2xGb5qHk3IGaErdS/view?usp=sharing
+## video : 
+
+https://user-images.githubusercontent.com/64233832/189651950-e6576b27-b132-40ad-a9f5-e463f2b59135.mp4
+
+
 
 
 
