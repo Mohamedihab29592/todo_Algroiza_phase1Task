@@ -10,8 +10,6 @@ import '../../../../main.dart';
 import '../../../../presentation/pages/Schedule.dart';
 import '../../components/constats.dart';
 
-
-
 class NotifyHelper {
   FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
       FlutterLocalNotificationsPlugin();
@@ -21,7 +19,7 @@ class NotifyHelper {
     _configureLocalTimeZone();
 
     const AndroidInitializationSettings initializationSettingsAndroid =
-        AndroidInitializationSettings("appicon");
+        AndroidInitializationSettings('@mipmap/ic_launcher');
 
     const IOSInitializationSettings initializationSettingsIOS =
         IOSInitializationSettings(
@@ -44,9 +42,13 @@ class NotifyHelper {
     'channel ID',
     'channel name',
     channelDescription: 'channel description',
-    playSound: true,
+    icon: '@mipmap/ic_launcher',
+    importance: Importance.max,
     priority: Priority.high,
-    importance: Importance.high,
+    ticker: 'ticker',
+    colorized: true,
+    playSound: true,
+
   );
   final IOSNotificationDetails _iOSNotificationDetails =
       const IOSNotificationDetails();
@@ -132,34 +134,32 @@ class NotifyHelper {
         MaterialPageRoute(builder: (context) => const Schedule()));
   }
 }
+
 late BuildContext context;
 
 Future onDidReceiveLocalNotification(
     int? id, String? title, String? body, String? payload) async {
- // display a dialog with the notification details, tap ok to go to another page
+  // display a dialog with the notification details, tap ok to go to another page
   showDialog(
-   context: context,
-    builder: (BuildContext context) =>
-        CupertinoAlertDialog(
-          title: Text(title!),
-          content: Text(body!),
-          actions: [
-            CupertinoDialogAction(
-              isDefaultAction: true,
-              child: const Text('Ok'),
-              onPressed: () async {
-                Navigator.of(context, rootNavigator: true).pop();
-                await Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const Schedule(),
-                  ),
-                );
-              },
-            )
-          ],
-        ),
-
+    context: context,
+    builder: (BuildContext context) => CupertinoAlertDialog(
+      title: Text(title!),
+      content: Text(body!),
+      actions: [
+        CupertinoDialogAction(
+          isDefaultAction: true,
+          child: const Text('Ok'),
+          onPressed: () async {
+            Navigator.of(context, rootNavigator: true).pop();
+            await Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const Schedule(),
+              ),
+            );
+          },
+        )
+      ],
+    ),
   );
-
 }

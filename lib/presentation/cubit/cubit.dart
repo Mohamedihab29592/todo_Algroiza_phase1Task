@@ -39,7 +39,7 @@ class TaskCubit extends Cubit<TaskState> {
   List<TaskModel> allTasks = [];
   List<TaskModel> schedule = [];
 
-  int selectedRemind = 0;
+  int selectedRemind  = 0;
 
   List<ReminderModel> reminderList = [
     ReminderModel(

@@ -16,7 +16,7 @@ class AllTasks extends StatefulWidget {
 class _AllTasksState extends State<AllTasks> {
   @override
   Widget build(BuildContext context) {
-    TaskCubit cubit = TaskCubit.get(context);
+      TaskCubit cubit = TaskCubit.get(context);
 
     return BlocBuilder<TaskCubit, TaskState>(
       builder: (context, state) {

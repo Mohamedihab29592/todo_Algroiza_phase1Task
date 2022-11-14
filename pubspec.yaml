@@ -41,6 +41,8 @@ dependencies:
   flutter_native_timezone: ^2.0.0
   flutter_local_notifications: ^9.7.0
   get_it: ^7.2.0
+  flutter_automation: ^2.0.0
+  rename: ^2.0.1
 
 
 
